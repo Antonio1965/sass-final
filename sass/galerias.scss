@@ -9,20 +9,27 @@ $size: 200px;
 @import "partials/header";
 
 /* Pagina de galerias */
-.galerias-container {
-  padding-top: 110px;
+
+@mixin animacion {
+  transform: scale(1.25);
+  transition: 3s;
+  filter: brightness(70%);
+}
+.container__galerias {
   font-family: roboto;
-}
-#galerias img {
-  width: 100%;
-  height: 250px;
-}
-#galerias img:hover {
-  filter: brightness(80%);
-}
-#galerias .col-lg-4 {
-  padding: 25px;
-  margin: 0 !important;
+  padding-top: 110px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+  & img:hover {
+    @include animacion;
+  }
+  & .col-lg-4 {
+    padding: 5px;
+    margin: 0 !important;
+  }
 }
 .enlace {
   text-transform: uppercase;
