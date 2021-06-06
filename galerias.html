@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de  Iconos  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./sass/galerias.css">
+    <title>Proyecto Final con SASS</title>
+</head>
+
+<body class="body">
+
+    <header class="header fixed-top">
+        <nav class="navbar navbar__fondo navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/antonio.jpg" alt="logo"></a>
+                <h3 class="sub__title">Tsutsumi, José Antonio</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="./sobre-mi.html">Sobre-mi</a>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="dropdown">
+                                <a class="btn text-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Proyectos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./proyectos.html">Básico</a></li>
+                                    <li><a class="dropdown-item" href="https://www.linkedin.com/">Intermedio</a></li>
+                                    <li><a class="dropdown-item" href="https://www.github.com/">Avanzado</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./galerias.html">Galerias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./contactos.html" tabindex="-1"
+                                aria-disabled="true">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Pagina principal - Galerias.html -->
+
+    <section class="galerias-container" id="galerias">
+        <div class="text-center pt-2">
+            <h2 class="display-6 text-white">Galerias de Fotos-Videos-Audios</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/buque1.jpg" alt="Galeria Imagen">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/buque2.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/buque3.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/buque4.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/imagen1.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/imagen2.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/imagen3.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/imagen5.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/meditacion.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/portfolio3.jpg" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/cometa.webp" alt="Galeria Imagen"">
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12">
+                <img class="img-thumbnail" src="./img/torre.jpg" alt="Galeria Imagen"">
+                </div>
+    
+        </section>
+        <div class=" p-2 text-center">
+                <a class="enlace badge bg-info rounded-pill" href="index.html">Volver a Inicio</a>
+            </div>
+            <!-- Footer, pie de página -->
+
+            <footer class="footer">
+                <div class="main center">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/"><i class="fab fa.fw fa-facebook"></i></a></li>
+                        <li><a href="https://www.yahoo.com"><i class="fab fa.fw fa-yahoo"></i></a></li>
+                        <li><a href="https://www.linkedin.com"><i class="fab fa.fw fa-linkedin"></i></a></li>
+                        <li><a href="https://www.github.com"><i class="fab fa.fw fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <hr>
+                <p class="footer__text center text-wh">Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de
+                    2021.</p>
+            </footer>
+
+            <!-- Script  de Bootstrap -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+                integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>

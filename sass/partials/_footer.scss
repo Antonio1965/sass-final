@@ -1,0 +1,77 @@
+/* Footer de la pagina */
+
+.footer {
+  background: linear-gradient(to left, #a6b4b4f8, #2c7573f8);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 100%;
+  height: 100px;
+}
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+.social-icons li a {
+  padding: 15px;
+  color: #c32aa3;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 16px;
+  position: relative;
+  text-align: center;
+  line-height: 70px;
+}
+.social-icons li a::before,
+.social-icons li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  transition: 0.4s linear;
+}
+.social-icons la a :hover i {
+  transform: scale(1.2);
+}
+.social-icons li a:hover::before {
+  transform: skewX(20deg);
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-radius: 50%;
+}
+.social-icons li a:hover::after {
+  transform: skewY(-25deg);
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-radius: 50%;
+}
+.fa-facebook {
+  color: #3b5998;
+  filter: drop-shadow(10px 10px 10px #3b5998);
+}
+.fa-yahoo {
+  color: #572364;
+  filter: drop-shadow(10px 10px 10px #572364);
+}
+.fa-linkedin {
+  color: #0e76a8;
+  filter: drop-shadow(10px 10px 10px #0e76a8);
+}
+.fa-github {
+  color: black;
+  filter: drop-shadow(10px 10px 10px black);
+}
+.footer__text {
+  color: $color-azure;
+  margin-top: 10px;
+}
+.footer hr {
+  margin: 0;
+}

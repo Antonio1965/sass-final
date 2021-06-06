@@ -1,0 +1,29 @@
+.header {
+  color: $color-azure;
+
+  .navbar__fondo {
+    background-color: #0c7572;
+  }
+  .navbar-toggler {
+    @extend.header;
+  }
+  .navbar-brand img {
+    width: 90px;
+    height: 80px;
+    padding-left: 10px;
+    border-radius: 10px 30px / 30px 40px;
+  }
+  .navbar-brand img:hover {
+    transform: scale(1.3);
+    transition: 3s;
+  }
+  .nav-item {
+    padding: 5px;
+    text-transform: uppercase;
+  }
+  .nav-item:hover {
+    border-radius: 10px;
+    background-color: #034574;
+    transition: 3s;
+  }
+}
