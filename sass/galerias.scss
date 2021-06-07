@@ -1,39 +1,13 @@
 // ---Colores---
 $color-azure: azure;
+$color-tomato: tomato;
 
 // ---Font-size---
 $size: 200px;
+$style: roboto;
 
 // ---@import---
 @import "partials/reset";
 @import "partials/header";
-
-/* Pagina de galerias */
-
-@mixin animacion {
-  transform: scale(1.25);
-  transition: 3s;
-  filter: brightness(70%);
-}
-.container__galerias {
-  font-family: roboto;
-  padding-top: 110px;
-
-  & img {
-    width: 100%;
-    height: 100%;
-  }
-  & img:hover {
-    @include animacion;
-  }
-  & .col-lg-4 {
-    padding: 5px;
-    margin: 0 !important;
-  }
-}
-.enlace {
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
+@import "partials/galerias";
 @import "partials/footer";

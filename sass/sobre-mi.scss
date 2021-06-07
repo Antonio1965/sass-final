@@ -1,60 +1,13 @@
 // ---Colores---
 $color-azure: azure;
+$color-tomato: tomato;
 
 // ---Font-size---
 $size: 200px;
+$style: roboto;
 
 // ---@import---
 @import "partials/reset";
 @import "partials/header";
-
-/* --Sobre-mi-- */
-section {
-  margin-top: 120px;
-  font-size: 20px;
-  font-family: roboto;
-  font-style: bold;
-
-  .container-img img {
-    border-radius: 50px;
-    border: $color-azure 1px solid;
-  }
-  .text,
-  .title-2,
-  .title-2-text,
-  .title-3,
-  .title-3-text {
-    text-align: center;
-  }
-  .text__color {
-    color: $color-azure;
-  }
-  /* Responsive  de video. */
-
-  .video__contenedor {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 320px;
-    max-width: 1200px;
-  }
-  .video__presentacion {
-    height: 0;
-    padding-bottom: 20.25%;
-    padding-left: 25%;
-    position: relative;
-  }
-  .presentacion {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-  }
-
-  /* --------------------------------- */
-  .enlace {
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-}
-
+@import "partials/sobre-mi";
 @import "partials/footer";

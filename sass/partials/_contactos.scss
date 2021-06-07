@@ -1,0 +1,16 @@
+/* Pagina de contactos */
+.container {
+  justify-content: center;
+  padding-top: 120px;
+
+  .contactos-form {
+    background-color: rgba(206, 241, 241, 0.733);
+    padding: 20px 60px;
+    border: 0.2px $color-azure solid;
+    border-radius: 20px;
+  }
+  .enlace {
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
