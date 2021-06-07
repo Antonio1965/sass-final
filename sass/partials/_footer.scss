@@ -1,6 +1,7 @@
 /* Footer de la pagina */
 
 .footer {
+  position: sticky;
   background: linear-gradient(to left, #a6b4b4f8, #2c7573f8);
 
   .center {
@@ -71,6 +72,9 @@
   .footer__text {
     color: $color-azure;
     margin-top: 10px;
+  }
+  .footer__text {
+    margin-bottom: 0;
   }
   hr {
     margin: 0;
