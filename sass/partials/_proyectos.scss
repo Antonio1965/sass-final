@@ -14,10 +14,10 @@
   /*  transformaciones de imagenes y videos. */
   & img:hover {
     transform: scale(1.25);
-    transition: 3s;
+    transition-duration: 300ms;
   }
   & iframe:hover {
-    transition: 3s;
+    transition-duration: 300ms;
     transform: skew(5deg);
   }
   .proyec__title {

@@ -1,8 +1,8 @@
 /* Pagina de galerias */
 
 @mixin animacion {
-  transform: scale(1.25);
-  transition: 3s;
+  transform: scale(1.15);
+  transition-duration: 300ms;
   filter: brightness(70%);
 }
 .container__galerias {
@@ -20,8 +20,9 @@
     padding: 5px;
     margin: 0 !important;
   }
-}
-.enlace {
-  text-transform: uppercase;
-  text-decoration: none;
+
+  .enlace {
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 }
