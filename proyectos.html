@@ -144,10 +144,31 @@
 
         </div class="proyectos__futuro">
         <h2 class="text-center">
-            <button type="button" class="btn btn-primary rounded-pill fs-4">
-                Proyectos a ejecutar...<span class="badge bg-secondary">9</span>
-                <span class="visually-hidden">unread messages</span>
+            <button type="button" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Proyectos a ejecutar... <h3 class="badge bg-warning p-2.5 mx-2.5">9</h3>
             </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-warning">
+                            <h5 class="modal-title " id="exampleModalLabel">Proyectos en ejecución</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ex maiores ipsum
+                            delectus
+                            autem
+                            exercitationem harum nobis nihil corrupti culpa.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Cargar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </h2>
         <div class="p-2 text-center">
             <a class="enlace badge bg-info rounded-pill" href="index.html">Volver a Inicio</a>
