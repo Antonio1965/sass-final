@@ -11,3 +11,8 @@ Desafio de entrega: Aplicar SEO a Nuestra Página.
 -. Se eligio palabra clave para el "titulo".
 -. Se inspecciona la pagina  con Lighthouse , con 97 de Accessibility, 100 de Best Practices y 100 se SEO.
 -. Se verifico responsive en mobil, tables y Desktop.
+
+Desafio del Proyecto Final Cuarta Entrega.
+-. Se verifica todas las paginas errores de gramatica y comentarios.
+-. Se verifica  todos los componentes de SASS y CSS del proyectos.
+.- SE coloca GitIgnore para no subir el archivo node_modules al repositorio de GitHub.
