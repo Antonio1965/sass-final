@@ -1,0 +1,13 @@
+Desafio de entrega: Aplicar SEO a Nuestra Página.
+
+-. Se optimizo la imagen del logo , convirtiendo a imagen SVG.
+-. Se cambia los imagenes de Carrusel por imagenes de URL.
+-. Se cambia también los imagenes de las paginas proyectos y galerias  por imagenes de URL.
+-. Se agrega una modal al botón de Proyectos a ejecutar.
+-. SEO Se optimizo con Keywords o Palabras Clave  del sitio Web.
+-. Se inserto  meta  "descripcion", meta "Keywords" con contenidos.
+-. Se inserto ma¡eta "Author" , con continidos.
+-. Se crea Favicons del logo y se inserta en el Head.
+-. Se eligio palabra clave para el "titulo".
+-. Se inspecciona la pagina  con Lighthouse , con 97 de Accessibility, 100 de Best Practices y 100 se SEO.
+-. Se verifico responsive en mobil, tables y Desktop.
