@@ -11,8 +11,8 @@
     @extend.header;
   }
   .title a {
-    list-style: none;
-    color: azure;
+    text-decoration: none;
+    color: $color-azure;
   }
   .navbar-brand img {
     width: 90px;
