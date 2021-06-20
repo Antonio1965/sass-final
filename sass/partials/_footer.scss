@@ -2,7 +2,9 @@
 
 .footer {
   position: sticky;
-  background: linear-gradient(to left, #a6b4b4f8, #2c7573f8);
+  background: linear-gradient(to bottom, #eef2f8f8, #021050ee);
+  color: azure;
+  filter: drop-shadow(10px 10px 10px azure);
 
   .center {
     display: flex;

@@ -1,5 +1,7 @@
 /* --Página de proyectos --*/
-
+.body {
+  background: linear-gradient(to top, #eef2f8f8, #021050ee);
+}
 .proyectos {
   padding-top: 120px;
   font-family: $style;
@@ -10,6 +12,11 @@
   }
   & .col-lg-4 {
     padding: 5px;
+  }
+  .img-thumbnail {
+    border-radius: 20px;
+    color: azure;
+    filter: drop-shadow(10px 10px 10px azure);
   }
   /*  transformaciones de imagenes y videos. */
   & img:hover {
@@ -22,11 +29,18 @@
   }
   .proyec__title {
     background-color: rgba(169, 169, 169, 0.527);
-    color: rgba(80, 71, 71, 0.5);
+    color:$color-azure;
     font-size: 20px;
     border-radius: 15px;
     margin: 10px;
   }
+    .descr__proy{
+      color: $color-azure;
+    }
+    .parr__text{
+      color: $color-azure;
+    }
+  
   .enlace {
     text-decoration: none;
     text-transform: uppercase;

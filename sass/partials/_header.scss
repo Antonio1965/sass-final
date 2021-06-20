@@ -1,11 +1,10 @@
 /*--Cabecera de la pagina --*/
 
 .header {
-  color: $color-azure;
-  z-index: 10px;
-
+  border-bottom: 0.1px solid rgba(240, 255, 255, 0.158);
+  
   .navbar__fondo {
-    background-color: #0c7572;
+    background: linear-gradient(to top, #eef2f8f8, #021050ee);
   }
   .navbar-toggler {
     @extend.header;
@@ -18,7 +17,6 @@
     width: 90px;
     height: 80px;
     padding-left: 10px;
-    // border-radius: 10px 30px / 30px 40px;
   }
   & img:hover {
     transform: scale(1.3);
